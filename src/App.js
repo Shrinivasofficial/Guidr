@@ -26,6 +26,7 @@ export const App = () => {
           } />
           <Route path="/tools" element={<Tools />} />
           <Route path="/figma" element={<Figma />} />
+          
         </Routes>
         <Footer />
       </div>

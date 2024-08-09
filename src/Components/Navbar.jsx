@@ -23,10 +23,12 @@ export const Navbar = () => {
                 <NavLink to='/tools' className={({ isActive }) => (isActive ? 'text-pink-700' : 'text-gray-900') + ' block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white md:dark:hover:text-pink-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'}>Explore</NavLink>
               </li>
               <li>
-                <NavLink to='/contribute' className={({ isActive }) => (isActive ? 'text-pink-700' : 'text-gray-900') + ' block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white md:dark:hover:text-pink-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'}>Contribute</NavLink>
+                <NavLink to='/contribute' className={({ isActive }) => (isActive ? 'text-pink-700' : 'text-gray-900') + ' block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white md:dark:hover:text-pink-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'}>Learn</NavLink>
               </li>
               <li>
                 <NavLink to='/premium' className={({ isActive }) => (isActive ? 'text-pink-700' : 'text-gray-900') + ' block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white md:dark:hover:text-pink-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'}>Premium</NavLink>
+              </li> <li>
+                <NavLink to='/contribute' className={({ isActive }) => (isActive ? 'text-pink-700' : 'text-gray-900') + ' block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white md:dark:hover:text-pink-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'}>Community</NavLink>
               </li>
               <li>
                 <NavLink to='/about' className={({ isActive }) => (isActive ? 'text-pink-700' : 'text-gray-900') + ' block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white md:dark:hover:text-pink-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'}>About Us</NavLink>
