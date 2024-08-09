@@ -19,9 +19,9 @@ export const Figma = () => {
             <a className='bg-pink-500 text-md py-2 px-4 rounded-lg hover:bg-pink-600 text-white' href='https://www.figma.com/'>
               Go to Figma
             </a>
-            <button className='bg-pink-500 text-md py-2 px-4 rounded-lg hover:bg-pink-600 text-white'>
+            <a href = 'https://www.canva.com/design/DAGMTqItT_0/5iAktFh_1ym07tBUX4PQsg/view?utm_content=DAGMTqItT_0&utm_campaign=designshare&utm_medium=link&utm_source=editor' className='bg-pink-500 text-md py-2 px-4 rounded-lg hover:bg-pink-600 text-white'>
               Guidr Guide
-            </button>
+            </a>
           </div>
         </div>
       </div>
